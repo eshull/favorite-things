@@ -10,12 +10,25 @@ $(function(){
     var place = $("#place").val();
     var color = $("#color").val();
     var car = $("#car").val();
+    var newArray = [];
 
-    favoriteThings.push(animal + food + place + color + car);
-    // favoriteThings.push(food);
-    // favoriteThings.push(anim);
-    // favoriteThings.push(animal);
-    // favoriteThings.push(animal);
+
+    favoriteThings.push(animal, food, place, color, car);
+    newArray.push(favoriteThings[1], favoriteThings[2], favoriteThings[4] );
+
+
+
+
+    alert(newArray);
+
+
+
+// favoriteThings.push(food);
+// favoriteThings.push(animal);
+// favoriteThings.push(animal);
+// favoriteThings.push(animal);
+// favoriteThings.push(animal);
+
 
     alert(favoriteThings);
 
