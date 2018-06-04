@@ -17,7 +17,12 @@ $(function(){
     newArray.push(favoriteThings[1], favoriteThings[2], favoriteThings[4] );
 
 
-
+    $('.results ul').append("<li>" + favoriteThings[0] +  "</li>");
+    $('.results ul').append("<li>" + favoriteThings[1] +  "</li>");
+    $('.results ul').append("<li>" + favoriteThings[2] +  "</li>");
+    $('.results ul').append("<li>" + favoriteThings[3] +  "</li>");
+    $('.results ul').append("<li>" + favoriteThings[4] +  "</li>");
+    $('.results ul').append("<li>" + newArray[1] +  "</li>");
 
     alert(newArray);
 
